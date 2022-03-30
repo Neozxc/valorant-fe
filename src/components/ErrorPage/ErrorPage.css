@@ -1,0 +1,7 @@
+.errorpage {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10%;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
