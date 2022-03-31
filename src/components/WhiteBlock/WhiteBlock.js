@@ -10,16 +10,16 @@ export const WhiteBlock = () => {
     <div className='block'>
         <div>
             <img src={firstImage}/>
-            <Link to="/teamcomps"><h1 className='th1'>Team Comps</h1></Link>
+            <Link to="/teamcomps"><h1>Agent Tier</h1></Link>
         </div>
 
         <div>
             <img src={secondImage}/>
-            <Link to="/ranks"><h1 className='rh1'>Ranks</h1></Link>
+            <Link to="/ranks"><h1>Ranks</h1></Link>
         </div>
 
         <div>
-            <img src={thirdImage}/>
+            <img className='aimg' src={thirdImage}/>
             <Link to="/agents"><h1 className='ah1'>Agents</h1></Link>
         </div>
 
