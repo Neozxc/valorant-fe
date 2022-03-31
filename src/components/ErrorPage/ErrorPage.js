@@ -7,10 +7,10 @@ export const ErrorPage = () => {
   return (
     <div>
       <div className='errorpage'>
-        <h1>Page you're looking not found.</h1>
+        <h1>Sorry this page doesn't exist...</h1>
       </div>
       <div className='goback'>
-        <Link to="/"><h1>Go back</h1></Link>
+        <Link to="/"><h1>Main Page</h1></Link>
       </div>
         <img className='breach' src={Breach} alt="" />
     </div>
