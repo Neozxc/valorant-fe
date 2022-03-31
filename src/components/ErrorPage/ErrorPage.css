@@ -2,6 +2,28 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 10%;
+    padding: 5%;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.goback {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: -3.9%;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.goback h1 {
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.breach {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 25%;
+    width: 20%;
 }
