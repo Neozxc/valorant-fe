@@ -7,7 +7,7 @@
     top: 4%;
 }
 
-.theader h1{
+.theader h1 {
     text-align: center;
     padding: 2%;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -36,7 +36,7 @@
     padding: 1.3% 6% 1.3% 6%;
 }
 
-.therushers .a img{
+.therushers .a img {
     margin: 1.5%;
     padding-top: 5%;
     width: 20%;
@@ -49,6 +49,7 @@
     left: 9%;
     top: 14%;
     font-size: 50px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 .therushers .a .atier {
@@ -66,3 +67,42 @@
 }
 
 /* Box setup with agents end */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .therushers {
+        width: 60%;
+        position: absolute;
+        top: 20%;
+    }
+
+    .theader h1{
+        position: absolute;
+        right: -50%;
+        width: 200%;
+    }
+
+    .therushers .a h2 {
+        position: absolute;
+        left: -14%;
+    }
+
+    .therushers .a .atier {
+        position: absolute;
+        left: -14%;
+    }
+ 
+    .therushers .a .btier {
+        position: absolute;
+        left: -14%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .therushers {
+        width: 50%;
+        position: absolute;
+        top: 20%;
+    }
+}
